@@ -1,0 +1,131 @@
+[
+  {
+    "TemplateId": "ZhanDouJieShu",
+    "TemplateName": "战斗结束检测",
+    "TemplateImageName": "zhandoujieshu_shengli.png",
+    "Enabled": true,
+    "Order": 1,
+    "Interval": 0.5,
+    "ClickConfig": {
+      "UseTemplateRange": true,
+	    "X_Deviation": -100,
+        "Y_Deviation": 1,
+        "Max_X_Deviation": -100,
+        "Max_Y_Deviation": -30,
+        "ClickEndShowRandomPosition":true,
+      "ClickSub": [
+        {
+          "Sleeped": true,
+          "IntervalMin": 30,
+          "IntervalMax": 60
+        },
+        {
+          "Sleeped": true,
+          "IntervalMin": 100,
+          "IntervalMax": 400
+        },
+        {
+          "Sleeped": true,
+          "IntervalMin": 100,
+          "IntervalMax": 400
+        },
+        {
+            "IsRandom": true,
+            "Sleeped": true,
+            "IntervalMin": 500,
+            "IntervalMax": 800
+        },
+        {
+          "Sleeped": true,
+          "IntervalMin": 500,
+          "IntervalMax": 800
+        },
+        {
+          "Sleeped": true,
+          "IntervalMin": 200,
+          "IntervalMax": 300
+        },
+        {
+            "IsRandom": true,
+            "Sleeped": true,
+            "IntervalMin": 200,
+            "IntervalMax": 300
+        },
+        {
+          "Sleeped": true,
+          "IntervalMin": 200,
+          "IntervalMax": 300
+        },
+        {
+          "Sleeped": true,
+          "IntervalMin": 600,
+          "IntervalMax": 700
+        }
+      ]
+    }
+  },{
+    "TemplateId": "ZhanDouJieShu2",
+    "TemplateName": "战斗结束检测2",
+    "TemplateImageName": "zhandoujieshu_shengli_2.png",
+    "Enabled": true,
+    "Order": 2,
+    "Interval": 3,
+    "ClickConfig": {
+      "UseTemplateRange": true,
+	  "ClickEndShowRandomPosition":true,
+      "ClickSub": [
+        {
+          "Sleeped": false
+        },
+        {
+          "Sleeped": true,
+          "IntervalMin": 100,
+          "IntervalMax": 400
+        },
+        {
+          "Sleeped": true,
+          "IntervalMin": 100,
+          "IntervalMax": 400
+        },
+        {
+          "Sleeped": true,
+          "IntervalMin": 500,
+          "IntervalMax": 800
+        }
+      ]
+    }
+  },
+  {
+    "TemplateId": "ZhanDoukaiShi",
+    "TemplateName": "开始战斗按钮检测",
+    "TemplateImageName": "zhandoukaishi.png",
+    "Enabled": false,
+    "Order": 3,
+    "Interval": 1.6,
+    "ClickConfig": {
+      "UseTemplateRange": true,
+      "ClickSub": [
+        {
+          "Sleeped": false
+        }
+      ]
+    }
+  },
+  {
+    "TemplateId": "ZhanDoukaiShi",
+    "TemplateName": "准备按钮检测",
+    "TemplateImageName": "zhunbei.png",
+    "Enabled": false,
+    "Order": 4,
+    "Interval": 1.6,
+    "ClickConfig": {
+      "UseTemplateRange": true,
+      "ClickSub": [
+        {
+          "Sleeped": false
+        }
+      ]
+    }
+  }
+
+]

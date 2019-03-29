@@ -1,0 +1,50 @@
+[
+  {
+    "TemplateId": "ZhanDouJieShu",
+    "TemplateName": "战斗结束检测",
+    "TemplateImageName": "zhandoujieshu_shengli.png",
+    "Enabled": true,
+    "Order": 1,
+    "Interval": 1.5,
+    "ClickConfig": {
+      "UseTemplateRange": true,
+      "ClickSub": [
+        {
+          "Sleeped": false
+        },
+        {
+          "Sleeped": true,
+          "IntervalMin": 100,
+          "IntervalMax": 400
+        },
+        {
+          "Sleeped": true,
+          "IntervalMin": 100,
+          "IntervalMax": 400
+        },
+        {
+          "Sleeped": true,
+          "IntervalMin": 500,
+          "IntervalMax": 800
+        }
+      ]
+    }
+  },
+  {
+    "TemplateId": "ZhanDoukaiShi",
+    "TemplateName": "开始战斗按钮检测",
+    "TemplateImageName": "zhandoukaishi.png",
+    "Enabled": true,
+    "Order": 2,
+    "Interval": 1.6,
+    "ClickConfig": {
+      "UseTemplateRange": true,
+      "ClickSub": [
+        {
+          "Sleeped": false
+        }
+      ]
+    }
+  }
+
+]

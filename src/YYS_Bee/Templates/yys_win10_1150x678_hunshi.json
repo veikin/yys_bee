@@ -1,0 +1,549 @@
+{
+  "Name": "阴阳师_win10_1150x678_自动魂十_配置",
+  "WindowName": "阴阳师-网易游戏",
+  "WindowWidth": 1150,
+  "WindowHeight": 678,
+  "Describe": "阴阳师游戏配置，支持win10,将设置窗口大小为1150x678。",
+  "Templates": [
+    {
+      "TemplateId": "ZhanDouJieShu",
+      "TemplateName": "战斗结束检测",
+      "Enabled": true,
+      "Order": 1,
+      "Interval": 0.3,
+      "CheckPosition": [
+
+        {
+          "X": 433,
+          "Y": 132,
+          "ColorValue": "123,25,16"
+        },
+        {
+          "X": 399,
+          "Y": 134,
+          "ColorValue": "202,184,163"
+        },
+        {
+          "X": 464,
+          "Y": 136,
+          "ColorValue": "200,182,161"
+        },
+        {
+          "X": 458,
+          "Y": 161,
+          "ColorValue": "162,27,17"
+        },
+        {
+          "X": 471,
+          "Y": 184,
+          "ColorValue": "177,63,47"
+        },
+        {
+          "X": 380,
+          "Y": 161,
+          "ColorValue": "169,75,59"
+        },
+        {
+          "X": 431,
+          "Y": 146,
+          "ColorValue": "205,190,170"
+        }
+      ],
+      "ClickConfig": [
+        {
+          "X": 131,
+          "X_Max": 210,
+          "Y": 50,
+          "Y_Max": 100,
+          "ClickEndShowRandomPosition": true,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            },
+            {
+              "IsRandom": true,
+              "Sleeped": true,
+              "IntervalMin": 500,
+              "IntervalMax": 800
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 500,
+              "IntervalMax": 800
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 200,
+              "IntervalMax": 300
+            },
+            {
+              "IsRandom": true,
+              "Sleeped": true,
+              "IntervalMin": 200,
+              "IntervalMax": 300
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 200,
+              "IntervalMax": 300
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 600,
+              "IntervalMax": 700
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 600,
+              "IntervalMax": 700
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 600,
+              "IntervalMax": 700
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 600,
+              "IntervalMax": 700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TemplateId": "ZhanDouKaiShi",
+      "TemplateName": "战斗开始检测",
+      "Enabled": true,
+      "Order": 2,
+      "Interval": 0.5,
+      "CheckPosition": [
+
+        {
+          "X": 860,
+          "Y": 541,
+          "ColorValue": "151,60,46"
+        },
+        {
+          "X": 1003,
+          "Y": 541,
+          "ColorValue": "151,60,46"
+        },
+        {
+          "X": 1004,
+          "Y": 585,
+          "ColorValue": "151,60,46"
+        },
+        {
+          "X": 859,
+          "Y": 581,
+          "ColorValue": "152,60,46"
+        },
+        {
+          "X": 933,
+          "Y": 551,
+          "ColorValue": "243,178,94"
+        },
+        {
+          "X": 930,
+          "Y": 577,
+          "ColorValue": "243,178,94"
+        }
+      ],
+      "ClickConfig": [
+        {
+          "X": 860,
+          "X_Max": 1000,
+          "Y": 540,
+          "Y_Max": 580,
+          "ClickEndShowRandomPosition": true,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TemplateId": "ZhanDouJieShuZiDongKaiChe",
+      "TemplateName": "战斗结束后自动开车",
+      "Enabled": true,
+      "Order": 3,
+      "Interval": 0.5,
+      "CheckPosition": [
+
+        {
+          "X": 504,
+          "Y": 349,
+          "ColorValue": "114,95,77"
+        },
+        {
+          "X": 503,
+          "Y": 411,
+          "ColorValue": "223,104,81"
+        },
+        {
+          "X": 641,
+          "Y": 415,
+          "ColorValue": "243,178,94"
+        },
+        {
+          "X": 569,
+          "Y": 415,
+          "ColorValue": "203,181,156"
+        },
+        {
+          "X": 375,
+          "Y": 244,
+          "ColorValue": "190,168,142"
+        },
+        {
+          "X": 764,
+          "Y": 250,
+          "ColorValue": "203,181,156"
+        },
+        {
+          "X": 557,
+          "Y": 294,
+          "ColorValue": "49,45,40"
+        }
+      ],
+      "ClickConfig": [
+        {
+          "X": 495,
+          "X_Max": 514,
+          "Y": 340,
+          "Y_Max": 359,
+          "ClickEndShowRandomPosition": false,
+          "Order": 0,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            }
+          ]
+        },
+        {
+          "X": 609,
+          "X_Max": 750,
+          "Y": 394,
+          "Y_Max": 432,
+          "ClickEndShowRandomPosition": true,
+          "Order": 1,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TemplateId": "XuanShangFengYinZiDongJieShou",
+      "TemplateName": "悬赏封印自动接受",
+      "Enabled": true,
+      "Order": 4,
+      "Interval": 0.8,
+      "CheckPosition": [
+
+        {
+          "X": 748,
+          "Y": 397,
+          "ColorValue": "88,181,99"
+        },
+        {
+          "X": 777,
+          "Y": 387,
+          "ColorValue": "86,178,97"
+        },
+        {
+          "X": 752,
+          "Y": 479,
+          "ColorValue": "223,110,91"
+        },
+        {
+          "X": 752,
+          "Y": 502,
+          "ColorValue": "224,112,93"
+        },
+        {
+          "X": 774,
+          "Y": 502,
+          "ColorValue": "223,110,91"
+        },
+        {
+          "X": 773,
+          "Y": 476,
+          "ColorValue": "222,109,90"
+        }
+      ],
+      "ClickConfig": [
+        {
+          "X": 750,
+          "X_Max": 775,
+          "Y": 385,
+          "Y_Max": 410,
+          "ClickEndShowRandomPosition": false,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TemplateId": "ZhanDouShiBaiJianCe",
+      "TemplateName": "战斗失败检测",
+      "Enabled": true,
+      "Order": 5,
+      "Interval": 1,
+      "CheckPosition": [
+
+        {
+          "X": 426,
+          "Y": 126,
+          "ColorValue": "77,69,85"
+        },
+        {
+          "X": 414,
+          "Y": 147,
+          "ColorValue": "87,79,97"
+        },
+        {
+          "X": 438,
+          "Y": 146,
+          "ColorValue": "81,74,91"
+        },
+        {
+          "X": 422,
+          "Y": 138,
+          "ColorValue": "183,165,143"
+        },
+        {
+          "X": 454,
+          "Y": 179,
+          "ColorValue": "88,80,98"
+        },
+        {
+          "X": 369,
+          "Y": 148,
+          "ColorValue": "81,74,91"
+        },
+        {
+          "X": 441,
+          "Y": 188,
+          "ColorValue": "187,166,137"
+        }
+      ],
+      "ClickConfig": [
+        {
+          "X": 131,
+          "X_Max": 210,
+          "Y": 50,
+          "Y_Max": 100,
+          "ClickEndShowRandomPosition": false,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TemplateId": "ZhanDouShiBaiZiDongYaoQingJianCe",
+      "TemplateName": "战斗失败自动邀请检测",
+      "Enabled": true,
+      "Order": 6,
+      "Interval": 1,
+      "CheckPosition": [
+
+        {
+          "X": 520,
+          "Y": 412,
+          "ColorValue": "223,104,81"
+        },
+        {
+          "X": 616,
+          "Y": 412,
+          "ColorValue": "243,178,94"
+        },
+        {
+          "X": 541,
+          "Y": 391,
+          "ColorValue": "131,39,76"
+        },
+        {
+          "X": 606,
+          "Y": 392,
+          "ColorValue": "152,61,46"
+        },
+        {
+          "X": 571,
+          "Y": 414,
+          "ColorValue": "203,181,156"
+        },
+        {
+          "X": 752,
+          "Y": 432,
+          "ColorValue": "150,59,45"
+        },
+        {
+          "X": 396,
+          "Y": 434,
+          "ColorValue": "134,39,73"
+        },
+        {
+          "X": 507,
+          "Y": 347,
+          "ColorValue": "203,181,156"
+        }
+      ],
+      "ClickConfig": [
+        {
+          "X": 609,
+          "X_Max": 750,
+          "Y": 394,
+          "Y_Max": 432,
+          "ClickEndShowRandomPosition": true,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TemplateId": "ZhanDouKaiShiZhunBeiJianCe",
+      "TemplateName": "战斗开始准备检测",
+      "Enabled": true,
+      "Order": 7,
+      "Interval": 1,
+      "CheckPosition": [
+
+        {
+          "X": 1055,
+          "Y": 605,
+          "ColorValue": "42,40,34"
+        },
+        {
+          "X": 1111,
+          "Y": 568,
+          "ColorValue": "60,52,45"
+        },
+        {
+          "X": 1040,
+          "Y": 629,
+          "ColorValue": "230,199,144"
+        },
+        {
+          "X": 999,
+          "Y": 592,
+          "ColorValue": "68,67,64"
+        },
+        {
+          "X": 993,
+          "Y": 590,
+          "ColorValue": "222,206,187"
+        },
+        {
+          "X": 1041,
+          "Y": 645,
+          "ColorValue": "47,26,16"
+        },
+        {
+          "X": 982,
+          "Y": 645,
+          "ColorValue": "235,209,159"
+        },
+        {
+          "X": 1105,
+          "Y": 647,
+          "ColorValue": "234,206,154"
+        }
+      ],
+      "ClickConfig": [
+        {
+          "X": 980,
+          "X_Max": 1098,
+          "Y": 474,
+          "Y_Max": 563,
+          "ClickEndShowRandomPosition": true,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

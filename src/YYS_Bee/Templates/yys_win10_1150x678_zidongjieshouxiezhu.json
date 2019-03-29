@@ -1,0 +1,70 @@
+{
+  "Name": "阴阳师_win10_1150x678_自动接受悬赏封印_配置",
+  "WindowName": "阴阳师-网易游戏",
+  "WindowWidth": 1150,
+  "WindowHeight": 678,
+  "Describe": "阴阳师游戏配置，支持win10,将设置窗口大小为1150x678。",
+  "Templates": [
+    {
+      "TemplateId": "XuanShangFengYinZiDongJieShou",
+      "TemplateName": "悬赏封印自动接受",
+      "Enabled": true,
+      "Order": 4,
+      "Interval": 0.8,
+      "CheckPosition": [
+
+        {
+          "X": 748,
+          "Y": 397,
+          "ColorValue": "88,181,99"
+        },
+        {
+          "X": 777,
+          "Y": 387,
+          "ColorValue": "86,178,97"
+        },
+        {
+          "X": 752,
+          "Y": 479,
+          "ColorValue": "223,110,91"
+        },
+        {
+          "X": 752,
+          "Y": 502,
+          "ColorValue": "224,112,93"
+        },
+        {
+          "X": 774,
+          "Y": 502,
+          "ColorValue": "223,110,91"
+        },
+        {
+          "X": 773,
+          "Y": 476,
+          "ColorValue": "222,109,90"
+        }
+      ],
+      "ClickConfig": [
+        {
+          "X": 750,
+          "X_Max": 775,
+          "Y": 385,
+          "Y_Max": 410,
+          "ClickEndShowRandomPosition": false,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

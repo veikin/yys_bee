@@ -1,0 +1,362 @@
+{
+  "Name": "阴阳师 mumu模拟器_win10_自动魂十_配置",
+  "WindowName": "阴阳师 - MuMu模拟器",
+  "WindowWidth": 1150,
+  "WindowHeight": 678,
+  "Describe": "阴阳师游戏配置，支持win10中 mumu模拟器，分辨率为1280x720,窗口大小将会设置为1150x678。",
+  "Templates": [
+    {
+      "TemplateId": "ZhanDouJieShu",
+      "TemplateName": "战斗结束检测",
+      "Enabled": true,
+      "Order": 1,
+      "Interval": 0.3,
+      "CheckPosition": [
+	{"X":434,"Y":158,"ColorValue":"161,28,18"},
+	{"X":442,"Y":158,"ColorValue":"215,200,177"},
+	{"X":451,"Y":157,"ColorValue":"157,28,18"},
+	{"X":476,"Y":180,"ColorValue":"168,81,65"},
+	{"X":473,"Y":170,"ColorValue":"171,27,17"},
+	{"X":473,"Y":176,"ColorValue":"207,191,168"}
+],
+      "ClickConfig": [
+        {
+          "X": 131,
+          "X_Max": 180,
+          "Y": 50,
+          "Y_Max": 100,
+          "ClickEndShowRandomPosition": true,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            },
+            {
+              "IsRandom": true,
+              "Sleeped": true,
+              "IntervalMin": 500,
+              "IntervalMax": 800
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 500,
+              "IntervalMax": 800
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 200,
+              "IntervalMax": 300
+            },
+            {
+              "IsRandom": true,
+              "Sleeped": true,
+              "IntervalMin": 200,
+              "IntervalMax": 300
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 200,
+              "IntervalMax": 300
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 600,
+              "IntervalMax": 700
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 600,
+              "IntervalMax": 700
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 600,
+              "IntervalMax": 700
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 600,
+              "IntervalMax": 700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TemplateId": "ZhanDouKaiShi",
+      "TemplateName": "战斗开始检测",
+      "Enabled": true,
+      "Order": 2,
+      "Interval": 0.5,
+      "CheckPosition": [
+	{"X":295,"Y":535,"ColorValue":"221,105,81"},
+	{"X":843,"Y":516,"ColorValue":"152,61,35"},
+	{"X":843,"Y":557,"ColorValue":"155,64,43"},
+	{"X":980,"Y":516,"ColorValue":"152,61,44"},
+	{"X":980,"Y":556,"ColorValue":"151,61,42"},
+	{"X":847,"Y":535,"ColorValue":"244,178,95"},
+	{"X":979,"Y":537,"ColorValue":"244,180,97"},
+	{"X":909,"Y":517,"ColorValue":"247,181,98"},
+	{"X":910,"Y":556,"ColorValue":"248,182,93"}
+],
+      "ClickConfig": [
+        {
+          "X": 845,
+          "X_Max": 978,
+          "Y": 518,
+          "Y_Max": 554,
+          "ClickEndShowRandomPosition": true,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TemplateId": "ZhanDouJieShuZiDongKaiChe",
+      "TemplateName": "战斗结束后自动开车",
+      "Enabled": true,
+      "Order": 3,
+      "Interval": 0.5,
+      "CheckPosition": [
+	{"X":508,"Y":335,"ColorValue":"157,135,113"},
+	{"X":491,"Y":335,"ColorValue":"204,180,155"},
+	{"X":526,"Y":336,"ColorValue":"204,180,155"},
+	{"X":611,"Y":394,"ColorValue":"244,178,95"},
+	{"X":538,"Y":394,"ColorValue":"221,105,81"},
+	{"X":596,"Y":397,"ColorValue":"204,180,155"},
+	{"X":553,"Y":396,"ColorValue":"204,180,155"},
+	{"X":605,"Y":374,"ColorValue":"150,59,29"},
+	{"X":544,"Y":376,"ColorValue":"138,39,64"},
+	{"X":742,"Y":415,"ColorValue":"151,60,43"}
+],
+      "ClickConfig": [
+        {
+          "X": 495,
+          "X_Max": 522,
+          "Y": 327,
+          "Y_Max": 344,
+          "ClickEndShowRandomPosition": false,
+          "Order": 0,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            }
+          ]
+        },
+        {
+          "X": 606,
+          "X_Max": 740,
+          "Y": 377,
+          "Y_Max": 413,
+          "ClickEndShowRandomPosition": true,
+          "Order": 1,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TemplateId": "XuanShangFengYinZiDongJieShou",
+      "TemplateName": "悬赏封印自动接受",
+      "Enabled": true,
+      "Order": 4,
+      "Interval": 0.8,
+      "CheckPosition": [
+	{"X":738,"Y":379,"ColorValue":"91,181,99"},
+	{"X":765,"Y":370,"ColorValue":"95,182,103"},
+	{"X":749,"Y":378,"ColorValue":"62,47,46"},
+	{"X":750,"Y":402,"ColorValue":"43,41,33"},
+	{"X":750,"Y":396,"ColorValue":"91,181,99"},
+	{"X":741,"Y":462,"ColorValue":"213,106,91"},
+	{"X":740,"Y":468,"ColorValue":"60,42,40"},
+	{"X":741,"Y":475,"ColorValue":"224,112,95"},
+	{"X":764,"Y":468,"ColorValue":"68,35,30"},
+	{"X":759,"Y":468,"ColorValue":"224,117,101"}
+],
+      "ClickConfig": [
+        {
+          "X": 734,
+          "X_Max": 771,
+          "Y": 366,
+          "Y_Max": 399,
+          "ClickEndShowRandomPosition": false,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TemplateId": "ZhanDouShiBaiJianCe",
+      "TemplateName": "战斗失败检测",
+      "Enabled": true,
+      "Order": 5,
+      "Interval": 1,
+      "CheckPosition": [
+	{"X":433,"Y":124,"ColorValue":"76,68,83"},
+	{"X":443,"Y":140,"ColorValue":"79,71,88"},
+	{"X":422,"Y":141,"ColorValue":"83,77,95"},
+	{"X":432,"Y":134,"ColorValue":"180,163,140"},
+	{"X":402,"Y":150,"ColorValue":"20,15,17"},
+	{"X":429,"Y":160,"ColorValue":"56,45,35"},
+	{"X":431,"Y":157,"ColorValue":"189,171,146"},
+	{"X":650,"Y":87,"ColorValue":"232,228,217"},
+	{"X":799,"Y":95,"ColorValue":"229,225,213"},
+	{"X":468,"Y":171,"ColorValue":"111,101,105"}
+],
+      "ClickConfig": [
+        {
+          "X": 131,
+          "X_Max": 180,
+          "Y": 50,
+          "Y_Max": 100,
+          "ClickEndShowRandomPosition": false,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TemplateId": "ZhanDouShiBaiZiDongYaoQingJianCe",
+      "TemplateName": "战斗失败自动邀请检测",
+      "Enabled": true,
+      "Order": 6,
+      "Interval": 1,
+      "CheckPosition": [
+	{"X":543,"Y":396,"ColorValue":"221,106,83"},
+	{"X":608,"Y":396,"ColorValue":"244,178,95"},
+	{"X":487,"Y":367,"ColorValue":"204,180,155"},
+	{"X":672,"Y":366,"ColorValue":"204,180,155"},
+	{"X":673,"Y":377,"ColorValue":"244,178,95"},
+	{"X":470,"Y":377,"ColorValue":"221,103,83"},
+	{"X":604,"Y":375,"ColorValue":"152,61,36"},
+	{"X":544,"Y":376,"ColorValue":"138,39,64"},
+	{"X":742,"Y":374,"ColorValue":"152,61,40"},
+	{"X":604,"Y":415,"ColorValue":"153,62,43"}
+],
+      "ClickConfig": [
+        {
+          "X": 606,
+          "X_Max": 738,
+          "Y": 377,
+          "Y_Max": 412,
+          "ClickEndShowRandomPosition": true,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TemplateId": "ZhanDouKaiShiZhunBeiJianCe",
+      "TemplateName": "战斗开始准备检测",
+      "Enabled": true,
+      "Order": 7,
+      "Interval": 1,
+      "CheckPosition": [
+	{"X":959,"Y":613,"ColorValue":"238,214,167"},
+	{"X":1073,"Y":615,"ColorValue":"241,220,175"},
+	{"X":1015,"Y":602,"ColorValue":"217,173,112"},
+	{"X":1003,"Y":611,"ColorValue":"136,98,62"},
+	{"X":1021,"Y":618,"ColorValue":"53,38,73"},
+	{"X":1081,"Y":585,"ColorValue":"170,132,90"},
+	{"X":1067,"Y":585,"ColorValue":"219,175,114"},
+	{"X":1060,"Y":593,"ColorValue":"117,81,48"},
+	{"X":974,"Y":563,"ColorValue":"75,66,59"},
+	{"X":1080,"Y":549,"ColorValue":"29,11,10"}
+],
+      "ClickConfig": [
+        {
+          "X": 961,
+          "X_Max": 1070,
+          "Y": 461,
+          "Y_Max": 537,
+          "ClickEndShowRandomPosition": true,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+TSColorPicker 取色软件自定义输出格式
+TSColorPicker\scripts\config\colorpicker\customformats

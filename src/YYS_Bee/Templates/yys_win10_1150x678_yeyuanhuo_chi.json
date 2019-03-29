@@ -1,0 +1,203 @@
+{
+  "Name": "阴阳师_win10_1150x678_自动业原火痴_配置",
+  "WindowName": "阴阳师-网易游戏",
+  "WindowWidth": 1150,
+  "WindowHeight": 678,
+  "Describe": "阴阳师游戏配置，支持win10,将设置窗口大小为1150x678。",
+  "Templates": [
+    {
+      "TemplateId": "ZhanDouJieShu",
+      "TemplateName": "战斗结束检测",
+      "Enabled": true,
+      "Order": 1,
+      "Interval": 0.3,
+      "CheckPosition": [
+	{"X":442,"Y":579,"ColorValue":"65,136,203"},
+	{"X":468,"Y":562,"ColorValue":"61,132,202"},
+	{"X":574,"Y":500,"ColorValue":"44,24,19"},
+	{"X":605,"Y":528,"ColorValue":"15,1,1"},
+	{"X":628,"Y":405,"ColorValue":"68,53,44"},
+	{"X":501,"Y":400,"ColorValue":"223,146,29"},
+	{"X":576,"Y":404,"ColorValue":"214,56,70"},
+	{"X":644,"Y":506,"ColorValue":"125,121,118"},
+	{"X":690,"Y":552,"ColorValue":"191,134,50"},
+	{"X":567,"Y":491,"ColorValue":"51,30,23"}
+],
+      "ClickConfig": [
+        {
+          "X": 80,
+          "X_Max": 210,
+          "Y": 50,
+          "Y_Max": 100,
+          "ClickEndShowRandomPosition": true,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            },
+            {
+              "IsRandom": true,
+              "Sleeped": true,
+              "IntervalMin": 500,
+              "IntervalMax": 800
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 500,
+              "IntervalMax": 800
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 200,
+              "IntervalMax": 300
+            },
+            {
+              "IsRandom": true,
+              "Sleeped": true,
+              "IntervalMin": 200,
+              "IntervalMax": 300
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 200,
+              "IntervalMax": 300
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 600,
+              "IntervalMax": 700
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 600,
+              "IntervalMax": 700
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 600,
+              "IntervalMax": 700
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 600,
+              "IntervalMax": 700
+            }
+          ]
+        }
+      ]
+    }
+    ,
+    {
+      "TemplateId": "XuanShangFengYinZiDongJieShou",
+      "TemplateName": "悬赏封印自动接受",
+      "Enabled": true,
+      "Order": 4,
+      "Interval": 0.8,
+      "CheckPosition": [
+
+        {
+          "X": 748,
+          "Y": 397,
+          "ColorValue": "88,181,99"
+        },
+        {
+          "X": 777,
+          "Y": 387,
+          "ColorValue": "86,178,97"
+        },
+        {
+          "X": 752,
+          "Y": 479,
+          "ColorValue": "223,110,91"
+        },
+        {
+          "X": 752,
+          "Y": 502,
+          "ColorValue": "224,112,93"
+        },
+        {
+          "X": 774,
+          "Y": 502,
+          "ColorValue": "223,110,91"
+        },
+        {
+          "X": 773,
+          "Y": 476,
+          "ColorValue": "222,109,90"
+        }
+      ],
+      "ClickConfig": [
+        {
+          "X": 750,
+          "X_Max": 775,
+          "Y": 385,
+          "Y_Max": 410,
+          "ClickEndShowRandomPosition": false,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TemplateId": "ZhanDouKaiShiJianCe",
+      "TemplateName": "战斗开始检测",
+      "Enabled": true,
+      "Order": 7,
+      "Interval": 1,
+      "CheckPosition": [
+	{"X":799,"Y":450,"ColorValue":"152,61,46"},
+	{"X":905,"Y":490,"ColorValue":"150,59,45"},
+	{"X":798,"Y":492,"ColorValue":"148,56,46"},
+	{"X":905,"Y":448,"ColorValue":"160,70,46"},
+	{"X":850,"Y":462,"ColorValue":"243,178,94"},
+	{"X":852,"Y":487,"ColorValue":"243,178,94"},
+	{"X":725,"Y":396,"ColorValue":"203,89,85"},
+	{"X":617,"Y":380,"ColorValue":"235,118,195"},
+	{"X":766,"Y":230,"ColorValue":"223,126,180"},
+	{"X":282,"Y":379,"ColorValue":"130,146,133"}
+],
+      "ClickConfig": [
+        {
+          "X": 804,
+          "X_Max": 903,
+          "Y": 453,
+          "Y_Max": 489,
+          "ClickEndShowRandomPosition": true,
+          "ClickSub": [
+            {
+              "Sleeped": true,
+              "IntervalMin": 30,
+              "IntervalMax": 60
+            },
+            {
+              "Sleeped": true,
+              "IntervalMin": 100,
+              "IntervalMax": 400
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
